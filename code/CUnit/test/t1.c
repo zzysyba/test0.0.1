@@ -10,7 +10,8 @@
 
 int main(void)
 {
-
+	
+	printf("git hub best!\n");
 	printf("%d\n",CU_initialize_registry() );
 	CU_cleanup_registry();
 	return 0;
