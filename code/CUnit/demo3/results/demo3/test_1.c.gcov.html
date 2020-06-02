@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - app.info - demo3/test_1.c</title>
+  <link rel="stylesheet" type="text/css" href="../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../index.html">top level</a> - <a href="index.html">demo3</a> - test_1.c<span style="font-size: 80%;"> (source / <a href="test_1.c.func-sort-c.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">app.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">29</td>
+            <td class="headerCovTableEntry">34</td>
+            <td class="headerCovTableEntryMed">85.3 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2020-05-29 02:56:12</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">5</td>
+            <td class="headerCovTableEntry">5</td>
+            <td class="headerCovTableEntryHi">100.0 %</td>
+          </tr>
+          <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /*</a>
+<span class="lineNum">       2 </span>            : 5个数中取最大值的函数int max(int a[5]）
+<span class="lineNum">       3 </span>            : */
+<span class="lineNum">       4 </span>            : #include &lt;stdio.h&gt;
+<span class="lineNum">       5 </span>            : #include &lt;string.h&gt;
+<span class="lineNum">       6 </span>            : #include &quot;CUnit/Basic.h&quot;
+<span class="lineNum">       7 </span>            : #include &quot;CUnit/Automated.h&quot;
+<a name="8"><span class="lineNum">       8 </span>            : #include &quot;CUnit/CUnit.h&quot;</a>
+<span class="lineNum">       9 </span>            : #include &quot;CUnit/Console.h&quot;
+<span class="lineNum">      10 </span><span class="lineCov">          8 : int max(int a[])</span>
+<span class="lineNum">      11 </span>            : {
+<span class="lineNum">      12 </span><span class="lineCov">          8 :         int m=0,i=0;</span>
+<span class="lineNum">      13 </span><span class="lineCov">         48 :         for(i=0;i&lt;5;i++)</span>
+<span class="lineNum">      14 </span>            :         {
+<span class="lineNum">      15 </span><span class="lineCov">         40 :       if(m&lt;a[i])</span>
+<span class="lineNum">      16 </span><span class="lineCov">         14 :         {m=a[i];}</span>
+<span class="lineNum">      17 </span>            :           
+<span class="lineNum">      18 </span>            :         }
+<a name="19"><span class="lineNum">      19 </span><span class="lineCov">          8 : return m;</span></a>
+<span class="lineNum">      20 </span>            : }
+<span class="lineNum">      21 </span><span class="lineCov">          2 : int init_suite1(void)</span>
+<span class="lineNum">      22 </span>            : {
+<a name="23"><span class="lineNum">      23 </span><span class="lineCov">          2 :     return 0;   </span></a>
+<span class="lineNum">      24 </span>            : }
+<span class="lineNum">      25 </span><span class="lineCov">          2 : int clean_suite1(void)</span>
+<span class="lineNum">      26 </span>            : {  
+<a name="27"><span class="lineNum">      27 </span><span class="lineCov">          2 :       return 0;</span></a>
+<span class="lineNum">      28 </span>            : }
+<span class="lineNum">      29 </span><span class="lineCov">          2 : void test_max(void)</span>
+<span class="lineNum">      30 </span>            : {
+<span class="lineNum">      31 </span>            : 
+<span class="lineNum">      32 </span><span class="lineCov">          2 :    int a1[5]={6,5,4,8,3},a2[5]={4,848,616,84,6},a3[5]={45,41,12,68,31},a4[5]={16,12,3,5,2};</span>
+<span class="lineNum">      33 </span><span class="lineCov">          2 :    CU_ASSERT(0 ==max(a1));</span>
+<span class="lineNum">      34 </span><span class="lineCov">          2 :    CU_ASSERT(2 ==max(a2));</span>
+<span class="lineNum">      35 </span><span class="lineCov">          2 :    CU_ASSERT(7 == max(a3));</span>
+<span class="lineNum">      36 </span><span class="lineCov">          2 :    CU_ASSERT(16==max(a4));</span>
+<a name="37"><span class="lineNum">      37 </span><span class="lineCov">          2 : }</span></a>
+<span class="lineNum">      38 </span>            : 
+<span class="lineNum">      39 </span><span class="lineCov">          1 : int main()</span>
+<span class="lineNum">      40 </span>            : {
+<span class="lineNum">      41 </span><span class="lineCov">          1 :    CU_pSuite pSuite = NULL;</span>
+<span class="lineNum">      42 </span>            : 
+<span class="lineNum">      43 </span>            :    /* 初始化注册表*/
+<span class="lineNum">      44 </span><span class="lineCov">          1 :    if (CUE_SUCCESS != CU_initialize_registry())</span>
+<span class="lineNum">      45 </span><span class="lineNoCov">          0 :       return CU_get_error();</span>
+<span class="lineNum">      46 </span>            : 
+<span class="lineNum">      47 </span>            :    /* 添加套件 */
+<span class="lineNum">      48 </span><span class="lineCov">          1 :    pSuite = CU_add_suite(&quot;Suite_111&quot;, init_suite1, clean_suite1);</span>
+<span class="lineNum">      49 </span><span class="lineCov">          1 :    if (NULL == pSuite) {</span>
+<span class="lineNum">      50 </span><span class="lineNoCov">          0 :       CU_cleanup_registry();</span>
+<span class="lineNum">      51 </span><span class="lineNoCov">          0 :       return CU_get_error();</span>
+<span class="lineNum">      52 </span>            :    }
+<span class="lineNum">      53 </span>            : 
+<span class="lineNum">      54 </span>            :    /* 添加测试用例 */
+<span class="lineNum">      55 </span>            :    /* NOTE - ORDER IS IMPORTANT - MUST TEST fread() AFTER fprintf() */
+<span class="lineNum">      56 </span><span class="lineCov">          1 :    if ((NULL == CU_add_test(pSuite, &quot;test of max()&quot;, test_max)))</span>
+<span class="lineNum">      57 </span>            :    {
+<span class="lineNum">      58 </span><span class="lineNoCov">          0 :       CU_cleanup_registry();</span>
+<span class="lineNum">      59 </span><span class="lineNoCov">          0 :       return CU_get_error();</span>
+<span class="lineNum">      60 </span>            :    }
+<span class="lineNum">      61 </span>            : 
+<span class="lineNum">      62 </span>            :    /* 基本模式 */
+<span class="lineNum">      63 </span><span class="lineCov">          1 :    CU_basic_set_mode(CU_BRM_VERBOSE);</span>
+<span class="lineNum">      64 </span><span class="lineCov">          1 :    CU_basic_run_tests();</span>
+<span class="lineNum">      65 </span>            :    
+<span class="lineNum">      66 </span><span class="lineCov">          1 : CU_automated_run_tests();</span>
+<span class="lineNum">      67 </span><span class="lineCov">          1 :         CU_list_tests_to_file();  </span>
+<span class="lineNum">      68 </span><span class="lineCov">          1 :    CU_cleanup_registry();</span>
+<span class="lineNum">      69 </span><span class="lineCov">          1 :    return CU_get_error();</span>
+<span class="lineNum">      70 </span>            : }  
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.13</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

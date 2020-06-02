@@ -1,0 +1,456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"n"
+			],
+			[
+				"p",
+				"printf\tprintf …"
+			],
+			[
+				"buf",
+				"buf"
+			],
+			[
+				"ev",
+				"event_base"
+			],
+			[
+				"st",
+				"st_mode"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"Nu",
+				"NULL"
+			],
+			[
+				"nu",
+				"NULL"
+			],
+			[
+				"H",
+				"HashTable"
+			],
+			[
+				"h",
+				"hash"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"in",
+				"int"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"Q",
+				"queuesize"
+			],
+			[
+				"Sq",
+				"Sqstack"
+			],
+			[
+				"max",
+				"MaxLen"
+			],
+			[
+				"P",
+				"printf"
+			],
+			[
+				"len",
+				"len"
+			],
+			[
+				"L",
+				"L"
+			],
+			[
+				"LI",
+				"LISTINCREMENT"
+			],
+			[
+				"ma",
+				"MaxLen"
+			],
+			[
+				"E",
+				"ElemType"
+			],
+			[
+				"Bst",
+				"BstNode"
+			],
+			[
+				"BS",
+				"BstNode"
+			],
+			[
+				"key",
+				"keymany"
+			],
+			[
+				"t",
+				"Troot"
+			],
+			[
+				"T",
+				"Troot"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"de",
+				"define"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"错误",
+				"错误，链表没有这么长"
+			],
+			[
+				"pre",
+				"prev"
+			],
+			[
+				"pr",
+				"printf\tprintf …"
+			],
+			[
+				"M",
+				"MaxLen"
+			],
+			[
+				"LIST",
+				"LIST_INIT_SIZE"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"su",
+				"sum2d"
+			],
+			[
+				"s",
+				"sum2d"
+			],
+			[
+				"mu",
+				"mult_array"
+			],
+			[
+				"m",
+				"MONTHS"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"rm",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ip",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: Create Package File"
+			],
+			[
+				"ipc",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View: Toggle Tabs"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/code/libevent/code/bufferevent/buffer_server.c",
+		"/D/code/libevent/code/bufferevent/buffer_client.c",
+		"/D/code/libevent/code/bufferevent/zhaizy.h",
+		"/D/code/libevent/libevent-2.1.8-stable/sample/hello-world.c",
+		"/D/code/libevent/libevent-2.1.8-stable/include/event2/event.h",
+		"/D/迅雷下载/day16-Linux网络编程（epoll、epoll反应堆、心跳、线程池）/4-源代码/thread_pool/threadpool.c",
+		"/D/code/C_Primer_Plus/text/ptr.c",
+		"/D/code/data_structure/unit_8.c",
+		"/D/code/C_Primer_Plus/ptr.c",
+		"/d/c_primer_plus/code/ptr2.c",
+		"/D/code/communicate/pthread/zhaizy.h",
+		"/D/code/communicate/pthread/wrap.c",
+		"/D/code/communicate/pthread/server.c",
+		"/D/迅雷下载/day16-Linux网络编程（epoll、epoll反应堆、心跳、线程池）/4-源代码/moreIO_concurrent/epoll_ET_LT/3-noblock_epoll/server.c",
+		"/D/code/communicate/server.c",
+		"/D/code/communicate/process/server.c",
+		"/D/code/communicate/wrap.c",
+		"/D/code/communicate/process/zhaizy.h",
+		"/D/code/communicate/zhaizy.h",
+		"/D/code/communicate/process/wrap.c",
+		"/D/迅雷下载/day14-Linux网络编程（socket错误处理、三次握手、并发）/4-源代码/mult_process_concurrent/makefile",
+		"/D/迅雷下载/day14-Linux网络编程（socket错误处理、三次握手、并发）/4-源代码/mult_process_concurrent/wrap.h",
+		"/D/迅雷下载/day14-Linux网络编程（socket错误处理、三次握手、并发）/4-源代码/mult_process_concurrent/server.c",
+		"/D/迅雷下载/day14-Linux网络编程（socket错误处理、三次握手、并发）/4-源代码/wrap_socket/client.c",
+		"/D/code/data_structure/unit_4.c",
+		"/D/迅雷下载/day14-Linux网络编程（socket错误处理、三次握手、并发）/4-源代码/wrap_socket/wrap.c",
+		"/D/迅雷下载/day14-Linux网络编程（socket错误处理、三次握手、并发）/4-源代码/wrap_socket/wrap.h",
+		"/D/code/linux/pipe/bother.c",
+		"/D/code/C_Primer_Plus/unit_10/10_sum_arrl.c",
+		"/D/code/linux/myls.c",
+		"/D/code/linux/signal/chld.c",
+		"/D/code/linux/file/dupf.c",
+		"/D/code/linux/mmap/mmap.c",
+		"/D/code/linux/pthread/con_pro.c",
+		"/D/code/linux/precess/eze.c",
+		"/D/code/linux/pthread/mutex.c",
+		"/D/code/linux/precess/test.c",
+		"/D/code/linux/precess/fork.c",
+		"/D/code/thread/block/mystat.c",
+		"/D/code/thread/unit_4.c",
+		"/D/code/thread/file/mylsr.c",
+		"/D/code/hellow.sublime-project",
+		"/D/code/C_Primer_Plus/unit_10/18 vararr2d.c",
+		"/D/code/thread/unit_1.c",
+		"/D/code/thread/make/src/hello.c",
+		"/D/code/thread/make/homekork/work.mk",
+		"/D/code/thread/make/homekork/add.c",
+		"/D/code/thread/make/homekork/div1.c",
+		"/D/code/thread/make/homekork/mul.c",
+		"/D/code/thread/make/homekork/sub.c",
+		"/D/code/thread/unit_2.c",
+		"/D/code/thread/make/inc/zhaizy.h",
+		"/D/code/thread/make/src/add.c",
+		"/D/code/thread/make/div1.c",
+		"/D/code/thread/make/hello.c",
+		"/D/code/thread/unit_3.c",
+		"/D/code/thread/zhaizy.h",
+		"/D/code/data_structure/zhaizy.h",
+		"/D/code/thread/mymath.c",
+		"/D/code/thread/fun.c",
+		"/D/code/data_structure/unit_7.c",
+		"/D/code/data_structure/unit_2.c",
+		"/D/code/data_structure/unit_3.c",
+		"/D/code/data_structure/unit_6.c",
+		"/D/code/data_structure/unit_5.c",
+		"/D/code/data_structure/unit_1.c",
+		"/D/code/zhaizy.h",
+		"/D/code/printf.c",
+		"/D/code/text/fun.c",
+		"/D/code/text/fun.h",
+		"/D/code/text/main.c",
+		"/D/code/data_structure/xoaxua.c",
+		"/D/code/data structure/unit_1.c",
+		"/D/code/data structure/aaa.c",
+		"/D/code/data_structure/aaa.c",
+		"/d/code/data structure/unit_1.c",
+		"/D/code/unit_11/3_addresses.c",
+		"/D/code/unit_11/2_strptr.c",
+		"/D/code/unit_10/18 vararr2d.c",
+		"/D/code/unit_10/14_arf.c",
+		"/D/code/unit_10/11_sum_arr2.c",
+		"/D/code/unit_10/10_sum_arrl.c",
+		"/D/code/unit_11/8_fgets2.c",
+		"/d/code/shujujg_h/zhaizy.h",
+		"/D/code/unit_10/sum_arrl_10.c",
+		"/D/code/unit_2/MergeList.c",
+		"/D/code/Aset.c",
+		"/D/code/main.c",
+		"/D/code/hellow.c",
+		"/d/code/unit_10/10.1/10.5designate.c",
+		"/D/code/unit_10/10.1/10.1day_monl.c",
+		"/D/code/10.1day_monl.c",
+		"/D/code/sum_arr2.c",
+		"/D/sublime/Data/.sublime/Local History/D/code/sum_arr2-20200427150707.c",
+		"/D/sublime/Data/Packages/User/Package Control.sublime-settings",
+		"/C/Users/admin/Desktop/hellow.c"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "text.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 152.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

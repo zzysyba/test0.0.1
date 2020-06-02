@@ -1,0 +1,5 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   8892   132 ?        Ssl  5月15   0:00 /init
+root     14451  0.0  0.0   8896   212 tty1     Ss   5月15   0:00 /init
+zzy      14452  0.0  0.0  16964  2764 tty1     S    5月15   0:06 -bash
+zzy      16208  0.0  0.0  17108  1932 tty1     R    17:37   0:00 ps aux
